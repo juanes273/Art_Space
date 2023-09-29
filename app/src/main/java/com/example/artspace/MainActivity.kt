@@ -81,7 +81,6 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
         R.drawable.malenia,
         R.drawable.yuta,
         R.drawable.suguro
-        // Agrega más recursos de imágenes según sea necesario
     )
 
     var currentArtworkIndex by remember { mutableStateOf(0) }
@@ -104,7 +103,6 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
             7 -> R.string.malenia
             8 -> R.string.yuta
             9 -> R.string.suguru
-            // Agrega más casos para los nuevos títulos según sea necesario
             else -> R.string.toji
         }
         year = when (currentArtworkIndex) {
@@ -118,7 +116,6 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
             7 -> R.string.malenia_year
             8 -> R.string.yuta_year
             9 -> R.string.suguru_year
-            // Agrega más casos para los nuevos años según sea necesario
             else -> R.string.toji_year
         }
         description = when (currentArtworkIndex) {
@@ -132,7 +129,6 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
             7 -> R.string.malenia_description
             8 -> R.string.yuta_description
             9 -> R.string.suguru_description
-            // Agrega más casos para las nuevas descripciones según sea necesario
             else -> R.string.toji_description
         }
         imageResource = artworkList[currentArtworkIndex]
@@ -177,7 +173,7 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
             Button(
                 onClick = {
                     if (currentArtworkIndex == 0) {
-                        currentArtworkIndex = artworkList.size - 1 // Cambia a la última imagen
+                        currentArtworkIndex = artworkList.size - 1
                     } else {
                         currentArtworkIndex--
                     }
@@ -202,7 +198,7 @@ fun ArtSpaceScreen(modifier: Modifier = Modifier) {
             Button(
                 onClick = {
                     if (currentArtworkIndex == artworkList.size - 1) {
-                        currentArtworkIndex = 0 // Vuelve a la primera imagen
+                        currentArtworkIndex = 0
                     } else {
                         currentArtworkIndex++
                     }
