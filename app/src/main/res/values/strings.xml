@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Art Space</string>
+
+    <string name="david">David Martinez</string>
+    <string name="david_year">2000</string>
+    <string name="david_description">David es un personaje misterioso y enigmático.</string>
+
+    <string name="levi">Levi Ackerman</string>
+    <string name="levi_year">1995</string>
+    <string name="levi_decription"> Levi es un soldado extremadamente habilidoso y calculador en la lucha contra gigantes.</string>
+
+    <string name="sasha">Sasha Braum</string>
+    <string name="sasha_year">2001</string>
+    <string name="sasha_description"> Miembro del Cuerpo de Exploración con un apetito voraz y talento para la supervivencia.</string>
+
+    <string name="asuna">Asuna Yuuki</string>
+    <string name="asuna_year">2004</string>
+    <string name="asuna_description">Asuna es una espadachina experta en un mundo virtual.</string>
+
+    <string name="gojo">Gojo Satoru </string>
+    <string name="gojo_year">1976</string>
+    <string name="gojo_description">Gojo es un poderoso hechicero en una sociedad secreta de magos.</string>
+
+    <string name="maki">Maki Zenin</string>
+    <string name="maki_year">1999</string>
+    <string name="maki_description">Maki es una guerrera fuerte y decidida en una batalla contra maldiciones.</string>
+
+    <string name="suguru">Suguru Geto</string>
+    <string name="suguru_year">1988</string>
+    <string name="suguru_description">Suguru es un antagonista astuto y peligroso.</string>
+
+    <string name="toji">Toji Fushiguro</string>
+    <string name="toji_year">1975</string>
+    <string name="toji_description">Toji es un cazador de maldiciones con habilidades excepcionales.</string>
+
+    <string name="yuta">Yuta Okkotsu</string>
+    <string name="yuta_year">2003</string>
+    <string name="yuta_description">Yuta es un estudiante con habilidades paranormales especiales.</string>
+
+    <string name="malenia">Malenia</string>
+    <string name="malenia_year">1990</string>
+    <string name="malenia_description">Malenia es un personaje misterioso con una historia intrigante.</string>
+
+    <string name="previous_button_text">Anterior</string>
+    <string name="next_button_text">Siguiente</string>
+
+    <string name="nombre_cod">Juan Esteban Brand Tovar 2043291</string>
+
+</resources>
